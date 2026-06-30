@@ -227,3 +227,9 @@ This section highlights mock apps built for learning and prototyping inside the 
 
 <img width="2172" height="1150" alt="CleanShot 2026-04-13 at 16 38 13@2x" src="https://github.com/user-attachments/assets/8e98d3a6-bce4-4213-8e86-ea44bf8d4dba" />
 
+
+---
+
+**OptionsAhoy Equity Planner**: Answers equity-compensation planning questions by calling the OptionsAhoy calculators: incentive stock option and alternative minimum tax (AMT) exercise timing, non-qualified stock options, restricted stock unit sell-versus-hold, qualified small business stock (QSBS), single-stock concentration, protective-put hedging, and funding a cash goal from equity. The OptionsAhoy API is keyless.
+- Open source: [github.com/AlvisoOculus/optionsahoy-mcp/tree/main/integrations/openbb-agent](https://github.com/AlvisoOculus/optionsahoy-mcp/tree/main/integrations/openbb-agent)
+- Author: [AlvisoOculus](https://github.com/AlvisoOculus)
