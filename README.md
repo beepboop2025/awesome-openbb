@@ -151,7 +151,7 @@ The hosted solutions aren't hosted by OpenBB and can be disabled by the author o
 **Seiche**: OpenBB Python provider and router for source-clocked funding-liquidity and world-markets evidence, including metadata-only China macro provenance. Research context only; it does not place orders or provide investment advice.
 - Open source: [github.com/beepboop2025/seiche](https://github.com/beepboop2025/seiche)
 - PyPI: [openbb-seiche](https://pypi.org/project/openbb-seiche/0.1.0/)
-- Install: `pip install openbb-seiche`
+- Install: `python -m pip install openbb-seiche==0.1.0`, then run `openbb-build`
 - OpenBB usage: `obb.seiche.funding_stress(provider="seiche")` or `obb.seiche.world_markets(selector="china_macro", provider="seiche")`
 - API required: None; the extension reads Seiche's anonymous hosted API
 - Author: [beepboop2025](https://github.com/beepboop2025)
