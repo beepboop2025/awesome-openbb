@@ -152,6 +152,7 @@ The hosted solutions aren't hosted by OpenBB and can be disabled by the author o
 - Release: [v0.1.5](https://github.com/beepboop2025/financial-evidence-skills/releases/tag/v0.1.5)
 - Install: `python -m pip install "financial-evidence[openbb] @ https://github.com/beepboop2025/financial-evidence-skills/releases/download/v0.1.5/financial_evidence-0.1.5-py3-none-any.whl"`, then run `openbb-build`
 - OpenBB usage: `obb.financial_evidence.routes(topics="money-market")` or `obb.financial_evidence.fetch(topics="money-market", max_bytes=1048576, timeout=10)`
+- Workspace research desk: [source-install guide](https://github.com/beepboop2025/financial-evidence-skills/blob/main/integrations/openbb/README.md) for seven cited datasets, eight widgets, benchmark-history charts, a REST API and five MCP tools. This optional backend requires a source install; the v0.1.5 wheel above contains the original router.
 - API required: None. The extension uses fixed public HTTPS routes and preserves unavailable sources instead of converting them to zero.
 - Author: [beepboop2025](https://github.com/beepboop2025)
 
